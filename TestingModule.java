@@ -22,7 +22,7 @@ public class TestingModule{
 
     int amount = 5;
 
-    q.populate(amount);
+    q.enqueue(amount);
     
     String name = q.getPersonName(3);
 
