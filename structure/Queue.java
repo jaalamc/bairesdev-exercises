@@ -41,7 +41,7 @@ public class Queue{
     
   }
 
-  public Person getPersonName(int index){
+  public String getPersonName(int index){
     if(!queue.isEmpty()){
       return (queue.get(index)).getName();
     }else{
