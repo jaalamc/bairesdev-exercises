@@ -1,5 +1,3 @@
-package exercises;
-
 import structure.Queue;
 
 public class Exercise2{
